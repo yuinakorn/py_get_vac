@@ -1,9 +1,9 @@
 version: '3'
 services:
   main:
-    image: 'yuinakorn/py_authen_thaid:latest'
+    image: 'yuinakorn/py_get_vaccine:latest'
     ports:
-      - '8888:8000'
+      - '8082:8000'
     volumes:
       - "./:/app"
     restart: 'unless-stopped'
